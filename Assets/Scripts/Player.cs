@@ -6,7 +6,6 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] float jumpVelocity = 1;
-    [SerializeField] float turnRate = 0.5f;
     new Rigidbody rigidbody;
 
     void Awake() {

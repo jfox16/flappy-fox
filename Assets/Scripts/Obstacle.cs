@@ -10,6 +10,7 @@ public class Obstacle : MonoBehaviour
     [SerializeField] GameObject bottomPipe;
 
     new Rigidbody rigidbody;
+    bool pointCounted = false;
 
     void Awake() {
         rigidbody = GetComponent<Rigidbody>();
@@ -20,6 +21,13 @@ public class Obstacle : MonoBehaviour
         if (GameController.state == GameController.State.Running) {
             transform.Translate(-moveSpeed, 0, 0);
         }
+
+        // Add a point if Obstacle passes middle of screen.
+        if (transform.position.x < 0 && !pointCounted) {
+            GameController.points += 1;
+            pointCounted = true;
+        }
+
         // Destroy Obstacle when it goes off screen.
         if (transform.position.x < -20) {
             Destroy(gameObject);

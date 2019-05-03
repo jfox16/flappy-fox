@@ -10,13 +10,13 @@ public class GameController : MonoBehaviour
     public static State state = State.Start;
 
     public static float points = 0;
-    public float pointRate = 0.1f;
 
     void Awake() {
         points = 0;
     }
 
-    void Update() {
+    void Update() 
+    {
         if (Input.GetButton("Jump")) {
             switch (state) {
                 // Start game if space is pressed on start screen
@@ -30,12 +30,9 @@ public class GameController : MonoBehaviour
                     break;
             }
         }
-    }
 
-    // Increment points once a frame while game is running.
-    void FixedUpdate() {
-        if (state == State.Running) {
-            points += pointRate;
+        if (Input.GetButtonDown("Cancel")) {
+            Application.Quit();
         }
     }
 }

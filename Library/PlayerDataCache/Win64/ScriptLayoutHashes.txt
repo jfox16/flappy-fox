@@ -4,7 +4,7 @@ C:/Users/Jonathan/Documents/_GitHub/_Unity/Jonathan Fox Submission - Flappy Fox/
 SceneListBegin?
 Assets/Scenes/MainScene.unity
 SceneListEnd?
-6d3d6beea2fea2c019deab9a436390de Assembly-CSharp.dll:.GameController
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GameController
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -121,7 +121,7 @@ d683f032cffbd52e382739fce616eb60 Assembly-CSharp.dll:.Obstacle
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
-27a87e4a788db6ded52c38b7e19a4957 Assembly-CSharp.dll:.Player
+5234e29673c420524571e95f39228f03 Assembly-CSharp.dll:.Player
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 b367fb3729026c68d08fd68320cb2653 Assembly-CSharp.dll:.PointsDisplay
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
