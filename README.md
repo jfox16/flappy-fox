@@ -3,6 +3,6 @@ Built in Unity and based on the popular Flappy Bird game. Made for the Glu Mobil
 
 How to Run:
 - Clone the repo
-- Open Standalone/"Jonathan Fox Submission - Flappy Fox.exe"
+- Run Standalone/"Jonathan Fox Submission - Flappy Fox.exe"
 
 Have fun!!
