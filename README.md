@@ -1,4 +1,4 @@
-# flappy-fox
+# Flappy Fox
 Built in Unity and based on the popular Flappy Bird game. Made for the Glu Mobile coding challenge by Jonathan Fox.
 
 How to Run:
